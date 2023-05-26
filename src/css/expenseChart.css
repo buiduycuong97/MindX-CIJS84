@@ -1,0 +1,28 @@
+.expense-chart{
+    margin: 10px;
+}.all-chart{
+    display: flex;
+    justify-content: space-around;
+}
+.child-chart{
+    display:flex; 
+    flex-direction: column;
+}
+.chart-position{
+    position: relative;
+}
+.chart{
+    width: 20px;
+    height: 100px;
+    border: 1px solid purple;
+    border-radius: 5px;
+}
+.chart-clone{
+    position: absolute;
+    width: 20px;
+    /* height: 10%; */
+    border-radius: 5px;
+    bottom: 0;
+    /* border: 1px solid purple; */
+    background-color: purple;
+}
