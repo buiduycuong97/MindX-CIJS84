@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.form{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 20px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    top:20px
+}   .footer{
+    text-align: center;
+}
